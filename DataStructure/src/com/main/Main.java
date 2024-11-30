@@ -1,8 +1,10 @@
 package com.main;
 
-import Array.Algoritham;
+import Algoritham.Algoritham;
 import Array.Class_Array;
 import Array.aray;
+import LeadCode_Solution.Palindrome_Number;
+import LeadCode_Solution.two_Sum;
 
 public class Main {
 	public static void main(String[] args)
@@ -18,6 +20,12 @@ public class Main {
 		
 		//Algoritham
 		Algoritham aa=new Algoritham();
+		
+		
+///////////////////////////leadcode Solution
+		
+//		two_Sum a=new two_Sum();
+        Palindrome_Number p=new Palindrome_Number();
 	}
 	
 }
