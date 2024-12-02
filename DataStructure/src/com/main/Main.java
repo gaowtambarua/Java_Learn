@@ -1,8 +1,10 @@
 package com.main;
 
+import dataStructure.Class_Array;
+import dataStructure.aray;
+import dataStructure.hashSet;
 import Algoritham.Algoritham;
-import Array.Class_Array;
-import Array.aray;
+import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
 import LeadCode_Solution.Palindrome_Number;
 import LeadCode_Solution.two_Sum;
 
@@ -18,14 +20,21 @@ public class Main {
 //            System.out.println( obj[i]);
 //        }
 		
-		//Algoritham
-		Algoritham aa=new Algoritham();
+
+		/////////////////////////////////////////////////////////Data Structuure
+		hashSet ha=new hashSet();
+		
+		
+		
+/////////////////////////////////////////////////Algoritham
+//		Algoritham aa=new Algoritham();
 		
 		
 ///////////////////////////leadcode Solution
 		
 //		two_Sum a=new two_Sum();
-        Palindrome_Number p=new Palindrome_Number();
+//        Palindrome_Number p=new Palindrome_Number();
+//		Check_If_N_and_Its_Double_Exist chif=new Check_If_N_and_Its_Double_Exist();
 	}
 	
 }
