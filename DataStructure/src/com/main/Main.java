@@ -6,6 +6,7 @@ import dataStructure.hashSet;
 import Algoritham.Algoritham;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
 import LeadCode_Solution.Palindrome_Number;
+import LeadCode_Solution.Remove_Duplicates_from_Sorted_Array;
 import LeadCode_Solution.two_Sum;
 
 public class Main {
@@ -22,7 +23,7 @@ public class Main {
 		
 
 		/////////////////////////////////////////////////////////Data Structuure
-		hashSet ha=new hashSet();
+//		hashSet ha=new hashSet();
 		
 		
 		
@@ -33,8 +34,9 @@ public class Main {
 ///////////////////////////leadcode Solution
 		
 //		two_Sum a=new two_Sum();
-//        Palindrome_Number p=new Palindrome_Number();
+//      Palindrome_Number p=new Palindrome_Number();
 //		Check_If_N_and_Its_Double_Exist chif=new Check_If_N_and_Its_Double_Exist();
+		Remove_Duplicates_from_Sorted_Array remove=new Remove_Duplicates_from_Sorted_Array();
 	}
 	
 }
