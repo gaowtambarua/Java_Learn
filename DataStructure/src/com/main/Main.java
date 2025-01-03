@@ -5,8 +5,11 @@ import dataStructure.aray;
 import dataStructure.hashSet;
 import Algoritham.Algoritham;
 import Algoritham.Bubble_Sort;
+import Algoritham.Heap_Sort;
 import Algoritham.Insertion_Sort;
 import Algoritham.Merge_Sort;
+import Algoritham.Quick_Sort;
+import Algoritham.Selection_Sort;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
 import LeadCode_Solution.Palindrome_Number;
 import LeadCode_Solution.Remove_Duplicates_from_Sorted_Array;
@@ -35,7 +38,14 @@ public class Main {
 //		Bubble_Sort bs=new Bubble_Sort();
 //		Selection_Sort sls=new Selection_Sort();
 //		Insertion_Sort ins=new Insertion_Sort();		
-		Merge_Sort ms=new Merge_Sort();
+//		Merge_Sort ms=new Merge_Sort();
+//		Quick_Sort qs=new Quick_Sort();
+		
+		
+		Heap_Sort hs=new Heap_Sort();
+		
+		
+		
 
 		
 		
