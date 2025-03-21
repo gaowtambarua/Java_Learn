@@ -1,4 +1,4 @@
-package Array;
+package dataStructure;
 
 public class Class_Array {
 	int k;
