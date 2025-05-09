@@ -13,6 +13,7 @@ import Algoritham.Merge_Sort;
 import Algoritham.Quick_Sort;
 import Algoritham.Selection_Sort;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
+import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Palindrome_Number;
 import LeadCode_Solution.Remove_Duplicates_from_Sorted_Array;
 import LeadCode_Solution.Reverse_Linked_List_;
@@ -58,7 +59,8 @@ public class Main {
 		// Check_If_N_and_Its_Double_Exist chif=new Check_If_N_and_Its_Double_Exist();
 		// Remove_Duplicates_from_Sorted_Array remove=new
 		// Remove_Duplicates_from_Sorted_Array();
-		Reverse_Linked_List_ list = new Reverse_Linked_List_();
+		//Reverse_Linked_List_ list = new Reverse_Linked_List_();
+		Merge_Sorted_Array mrg=new Merge_Sorted_Array();
 	}
 
 }
