@@ -1,32 +1,29 @@
-package Algoritham;
+package LeadCode_Solution;
 
 import java.util.Arrays;
 
-public class Merge_Sort {
-	public Merge_Sort()
+public class Sort_an_Array {
+	public Sort_an_Array()
 	{
-		int [] arr={41,9,9,48,11,2,11,12,28,10,15,4,16,48,9,3};
-		mergeSort(arr);
-		for(int i=0;i<arr.length;i++)
+		int[] nums={5,2,3,1};
+		System.out.println(Arrays.toString(sortArray(nums)));
+	}
+
+	public int[] sortArray(int[] nums) {
+		if(nums.length==1)
 		{
-			System.out.print(arr[i]+" ");
+			return nums;
 		}
-
+		int mid=nums.length/2;
+		int [] left=Arrays.copyOfRange(nums,0,mid);
+		int [] right=Arrays.copyOfRange(nums, mid,nums.length);
+		sortArray(left);
+		sortArray(right);
+		merge(nums,left,right);
+		
+		return nums;
 	}
-
-	public void mergeSort(int arr[])
-	{
-		if(arr.length==1)
-		{
-			return;
-		}//3 2 4 5
-		int mid=arr.length/2;
-		int [] left=Arrays.copyOfRange(arr,0,mid);
-		int [] right=Arrays.copyOfRange(arr, mid,arr.length);
-		mergeSort(left);
-		mergeSort(right);
-		merge(arr,left,right);
-	}
+	
 	private void merge(int [] arr,int [] left,int [] right)
 	{
 		int i=0,j=0,k=0;
@@ -62,5 +59,4 @@ public class Merge_Sort {
         }
 
 	}
-	
 }
