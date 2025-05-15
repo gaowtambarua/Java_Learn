@@ -15,6 +15,7 @@ import Algoritham.Selection_Sort;
 import Algoritham.Tortoise_and_Hare_OR_Fast_and_Slow_Pointer;
 import Algoritham.Two_Pointer_;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
+import LeadCode_Solution.Linked_List_Cycle;
 import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Merge_Two_Sorted_Lists;
 import LeadCode_Solution.Middle_of_the_Linked_List;
@@ -77,7 +78,9 @@ public class Main {
 		// Squares_of_a_Sorted_Array ssa=new Squares_of_a_Sorted_Array();
 		// Running_Sum_of_1d_Array rsa=new Running_Sum_of_1d_Array();
         // Sort_an_Array saa=new Sort_an_Array();
-		Middle_of_the_Linked_List ml= new Middle_of_the_Linked_List();
+		// Middle_of_the_Linked_List ml= new Middle_of_the_Linked_List();
+		   Linked_List_Cycle llC=new Linked_List_Cycle();
+
 	}
 
 }
