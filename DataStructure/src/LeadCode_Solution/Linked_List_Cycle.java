@@ -9,7 +9,7 @@ public class Linked_List_Cycle {
 			this.val=val;
 		}
 	}
-	/// 0 1 2 1 2 1 2
+	/// 0 0 
     //              ..    	    
 	public Linked_List_Cycle()
 	{
@@ -22,6 +22,8 @@ public class Linked_List_Cycle {
 	}
 	//1 1 null
 	public boolean hasCycle(ListNode head) {
+		//using Tortoise_and_Hare_OR_Fast_and_Slow_Pointer  algoritham
+		
 		ListNode slow=head;
 		ListNode fast=head;
 		while(fast!=null && fast.next!=null)
