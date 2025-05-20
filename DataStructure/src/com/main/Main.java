@@ -14,7 +14,11 @@ import Algoritham.Quick_Sort;
 import Algoritham.Selection_Sort;
 import Algoritham.Tortoise_and_Hare_OR_Fast_and_Slow_Pointer;
 import Algoritham.Two_Pointer_;
+import LeadCode_Solution.Add_Digits;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
+import LeadCode_Solution.Count_Primes;
+import LeadCode_Solution.Factorial_Trailing_Zeroes;
+import LeadCode_Solution.Happy_Number;
 import LeadCode_Solution.Linked_List_Cycle;
 import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Merge_Two_Sorted_Lists;
@@ -27,7 +31,11 @@ import LeadCode_Solution.Reverse_Linked_List_;
 import LeadCode_Solution.Running_Sum_of_1d_Array;
 import LeadCode_Solution.Sort_an_Array;
 import LeadCode_Solution.Squares_of_a_Sorted_Array;
+import LeadCode_Solution.Ugly_Number;
 import LeadCode_Solution.two_Sum;
+import Math.PrimeNumber_Two;
+import Math.PrimeNumbers;
+import Math.Trailing_Zeroes;
 
 public class Main {
 	public static void main(String[] args) {
@@ -50,7 +58,7 @@ public class Main {
 
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//////////////////////////////////////////////////////// Algoritham
-		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 		// Algoritham aa = new Algoritham();
 		// Bubble_Sort bs=new Bubble_Sort();
 		// Selection_Sort sls=new Selection_Sort();
@@ -59,7 +67,24 @@ public class Main {
 		// Quick_Sort qs=new Quick_Sort();
 		// Heap_Sort hs=new Heap_Sort();
 		// Two_Pointer_ tp=new Two_Pointer_();
-		// Tortoise_and_Hare_OR_Fast_and_Slow_Pointer fs = new Tortoise_and_Hare_OR_Fast_and_Slow_Pointer();
+		// Tortoise_and_Hare_OR_Fast_and_Slow_Pointer fs = new Tortoise_and_Hare_OR_Fast_and_Slow_Pointer();		
+
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////////////////////// Math  ////////////////////////////////////////////////////////
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+		// Trailing_Zeroes tz= new Trailing_Zeroes();
+		// PrimeNumbers pn= new PrimeNumbers (); 
+		// PrimeNumber_Two pntwo=new PrimeNumber_Two();
+
+
+
+
+
+
+
+
 
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		///////////////////////////////////////////////// leadcode
@@ -77,10 +102,14 @@ public class Main {
 		// Remove_Element rm=new Remove_Element();
 		// Squares_of_a_Sorted_Array ssa=new Squares_of_a_Sorted_Array();
 		// Running_Sum_of_1d_Array rsa=new Running_Sum_of_1d_Array();
-        // Sort_an_Array saa=new Sort_an_Array();
+		// Sort_an_Array saa=new Sort_an_Array();
 		// Middle_of_the_Linked_List ml= new Middle_of_the_Linked_List();
 		// Linked_List_Cycle llC=new Linked_List_Cycle();
-
+		// Happy_Number  hn= new Happy_Number();
+		// Add_Digits ad= new Add_Digits();
+		// Ugly_Number un= new Ugly_Number();
+		// Factorial_Trailing_Zeroes  ftz= new Factorial_Trailing_Zeroes();
+		   Count_Primes  con= new Count_Primes();
 	}
 
 }
