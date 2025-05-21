@@ -9,11 +9,13 @@ import Algoritham.Algoritham;
 import Algoritham.Sort.Bubble_Sort;
 import Algoritham.Sort.Heap_Sort;
 import Algoritham.Sort.Insertion_Sort;
+import Algoritham.Sort.Marge_Sort_Self;
 import Algoritham.Sort.Merge_Sort;
 import Algoritham.Sort.Quick_Sort;
 import Algoritham.Sort.Selection_Sort;
 import Algoritham.Sieve_of_Eratosthenes;
 import Algoritham.Tortoise_and_Hare_OR_Fast_and_Slow_Pointer;
+import Algoritham.Trailing_Zeros_in_Factorial;
 import Algoritham.Two_Pointer_;
 import LeadCode_Solution.Add_Digits;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
@@ -53,10 +55,13 @@ public class Main {
 		/// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//////////////////////////////////////////////////////// Data Structuure
 		/// /////////////////////////////////////////////////////
-		 hashSet ha=new hashSet();
+		// hashSet ha=new hashSet();
 		// singly_linked_list sl = new singly_linked_list();
 		// SinglyLinkList sl = new SinglyLinkList();
 
+		
+		
+		
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//////////////////////////////////////////////////////// Algoritham
 		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -70,7 +75,12 @@ public class Main {
 		// Two_Pointer_ tp=new Two_Pointer_();
 		// Tortoise_and_Hare_OR_Fast_and_Slow_Pointer fs = new Tortoise_and_Hare_OR_Fast_and_Slow_Pointer();
 		// Sieve_of_Eratosthenes seive=new Sieve_of_Eratosthenes();
+		// Trailing_Zeros_in_Factorial tzin= new Trailing_Zeros_in_Factorial();
+		Marge_Sort_Self mss= new Marge_Sort_Self();
 
+		
+		
+		
 
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//////////////////////////////////////////////////////// Math  ////////////////////////////////////////////////////////
