@@ -1,4 +1,4 @@
-package Algoritham;
+package Algoritham.Sort;
 
 public class Selection_Sort {
 	public Selection_Sort() {

@@ -1,4 +1,4 @@
-package Algoritham;
+package Algoritham.Sort;
 
 public class Bubble_Sort {
 	public Bubble_Sort()

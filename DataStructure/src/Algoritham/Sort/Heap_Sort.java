@@ -1,4 +1,4 @@
-package Algoritham;
+package Algoritham.Sort;
 
 public class Heap_Sort {
 	public Heap_Sort()

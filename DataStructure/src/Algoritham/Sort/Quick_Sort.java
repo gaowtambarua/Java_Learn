@@ -1,4 +1,4 @@
-package Algoritham;
+package Algoritham.Sort;
 
 public class Quick_Sort{
 	public Quick_Sort()

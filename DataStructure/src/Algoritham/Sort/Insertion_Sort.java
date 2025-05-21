@@ -1,4 +1,4 @@
-package Algoritham;
+package Algoritham.Sort;
 
 public class Insertion_Sort {
 	public Insertion_Sort() {
