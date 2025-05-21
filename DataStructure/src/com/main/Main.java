@@ -12,6 +12,7 @@ import Algoritham.Sort.Insertion_Sort;
 import Algoritham.Sort.Merge_Sort;
 import Algoritham.Sort.Quick_Sort;
 import Algoritham.Sort.Selection_Sort;
+import Algoritham.Sieve_of_Eratosthenes;
 import Algoritham.Tortoise_and_Hare_OR_Fast_and_Slow_Pointer;
 import Algoritham.Two_Pointer_;
 import LeadCode_Solution.Add_Digits;
@@ -67,7 +68,8 @@ public class Main {
 		// Quick_Sort qs=new Quick_Sort();
 		// Heap_Sort hs=new Heap_Sort();
 		// Two_Pointer_ tp=new Two_Pointer_();
-		// Tortoise_and_Hare_OR_Fast_and_Slow_Pointer fs = new Tortoise_and_Hare_OR_Fast_and_Slow_Pointer();		
+		// Tortoise_and_Hare_OR_Fast_and_Slow_Pointer fs = new Tortoise_and_Hare_OR_Fast_and_Slow_Pointer();
+		// Sieve_of_Eratosthenes seive=new Sieve_of_Eratosthenes();
 
 
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -109,7 +111,7 @@ public class Main {
 		// Add_Digits ad= new Add_Digits();
 		// Ugly_Number un= new Ugly_Number();
 		// Factorial_Trailing_Zeroes  ftz= new Factorial_Trailing_Zeroes();
-		   Count_Primes  con= new Count_Primes();
+		// Count_Primes  con= new Count_Primes();
 	}
 
 }
