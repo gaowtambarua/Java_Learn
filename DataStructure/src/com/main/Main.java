@@ -59,28 +59,30 @@ public class Main {
 		// singly_linked_list sl = new singly_linked_list();
 		// SinglyLinkList sl = new SinglyLinkList();
 
-		
-		
-		
+
+
+
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//////////////////////////////////////////////////////// Algoritham
 		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 		// Algoritham aa = new Algoritham();
+
 		// Bubble_Sort bs=new Bubble_Sort();
 		// Selection_Sort sls=new Selection_Sort();
 		// Insertion_Sort ins=new Insertion_Sort();
 		// Merge_Sort ms=new Merge_Sort();
 		// Quick_Sort qs=new Quick_Sort();
 		// Heap_Sort hs=new Heap_Sort();
+
 		// Two_Pointer_ tp=new Two_Pointer_();
 		// Tortoise_and_Hare_OR_Fast_and_Slow_Pointer fs = new Tortoise_and_Hare_OR_Fast_and_Slow_Pointer();
-		// Sieve_of_Eratosthenes seive=new Sieve_of_Eratosthenes();
+		// Sieve_of_Eratosthenes seive=new Sieve_of_Eratosthenes(); // Find Out Prime Number
 		// Trailing_Zeros_in_Factorial tzin= new Trailing_Zeros_in_Factorial();
-		Marge_Sort_Self mss= new Marge_Sort_Self();
+		// Marge_Sort_Self mss= new Marge_Sort_Self();
 
-		
-		
-		
+
+
+
 
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//////////////////////////////////////////////////////// Math  ////////////////////////////////////////////////////////
