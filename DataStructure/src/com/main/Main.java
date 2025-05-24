@@ -1,7 +1,10 @@
 package com.main;
 
 import dataStructure.Class_Array;
+import dataStructure.PriorityQueueExample;
+import dataStructure.QueueExample;
 import dataStructure.SinglyLinkList;
+import dataStructure.StackExample;
 import dataStructure.aray;
 import dataStructure.hashSet;
 import dataStructure.singly_linked_list;
@@ -58,6 +61,9 @@ public class Main {
 		// hashSet ha=new hashSet();
 		// singly_linked_list sl = new singly_linked_list();
 		// SinglyLinkList sl = new SinglyLinkList();
+		// StackExample stck= new StackExample ();
+		// QueueExample  quee= new QueueExample();
+		   PriorityQueueExample prq= new PriorityQueueExample();
 
 
 
