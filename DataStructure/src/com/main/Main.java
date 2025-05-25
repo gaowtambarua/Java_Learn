@@ -38,6 +38,7 @@ import LeadCode_Solution.Running_Sum_of_1d_Array;
 import LeadCode_Solution.Sort_an_Array;
 import LeadCode_Solution.Squares_of_a_Sorted_Array;
 import LeadCode_Solution.Ugly_Number;
+import LeadCode_Solution.lastStoneWeight;
 import LeadCode_Solution.two_Sum;
 import Math.PrimeNumber_Two;
 import Math.PrimeNumbers;
@@ -63,7 +64,7 @@ public class Main {
 		// SinglyLinkList sl = new SinglyLinkList();
 		// StackExample stck= new StackExample ();
 		// QueueExample  quee= new QueueExample();
-		   PriorityQueueExample prq= new PriorityQueueExample();
+		// PriorityQueueExample prq= new PriorityQueueExample();
 
 
 
@@ -130,6 +131,7 @@ public class Main {
 		// Ugly_Number un= new Ugly_Number();
 		// Factorial_Trailing_Zeroes  ftz= new Factorial_Trailing_Zeroes();
 		// Count_Primes  con= new Count_Primes();
+		lastStoneWeight  lstw= new lastStoneWeight();
 	}
 
 }
