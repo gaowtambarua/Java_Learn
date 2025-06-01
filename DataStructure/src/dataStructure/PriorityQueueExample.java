@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 public class PriorityQueueExample {
 	public PriorityQueueExample()
 	{
-		PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+		PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(Collections.reverseOrder());
 
         maxHeap.add(5);
         maxHeap.add(1);

@@ -3,7 +3,7 @@ import java.util.Stack;
 public class StackExample {
 	public StackExample()
 	{
-		 	Stack<Integer> stack = new Stack<>();
+		 	Stack<Integer> stack = new Stack<Integer>();
 		 	
 		 	//////////////Last In fast Out
 

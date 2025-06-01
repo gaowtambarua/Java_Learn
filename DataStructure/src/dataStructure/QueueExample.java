@@ -7,7 +7,7 @@ public class QueueExample {
 	public QueueExample()
 	{
 		////First In First Out
-		Queue<String> queue = new LinkedList<>();
+		Queue<String> queue = new LinkedList<String>();
 
         queue.add("A");
         queue.add("B");

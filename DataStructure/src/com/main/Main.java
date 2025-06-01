@@ -1,6 +1,7 @@
 package com.main;
 
 import dataStructure.Class_Array;
+import dataStructure.LinkedList_ArraysList_;
 import dataStructure.PriorityQueueExample;
 import dataStructure.QueueExample;
 import dataStructure.SinglyLinkList;
@@ -16,15 +17,21 @@ import Algoritham.Sort.Marge_Sort_Self;
 import Algoritham.Sort.Merge_Sort;
 import Algoritham.Sort.Quick_Sort;
 import Algoritham.Sort.Selection_Sort;
+import Algoritham.Fibonacci;
 import Algoritham.Sieve_of_Eratosthenes;
 import Algoritham.Tortoise_and_Hare_OR_Fast_and_Slow_Pointer;
 import Algoritham.Trailing_Zeros_in_Factorial;
 import Algoritham.Two_Pointer_;
 import LeadCode_Solution.Add_Digits;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
+import LeadCode_Solution.Climbing_Stairs;
 import LeadCode_Solution.Count_Primes;
 import LeadCode_Solution.Factorial_Trailing_Zeroes;
+import LeadCode_Solution.Fibonacci_Number;
 import LeadCode_Solution.Happy_Number;
+import LeadCode_Solution.LastVisitedIntegers;
+import LeadCode_Solution.Last_Stone_Weight_II;
+import LeadCode_Solution.LengthofLastWord;
 import LeadCode_Solution.Linked_List_Cycle;
 import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Merge_Two_Sorted_Lists;
@@ -65,6 +72,8 @@ public class Main {
 		// StackExample stck= new StackExample ();
 		// QueueExample  quee= new QueueExample();
 		// PriorityQueueExample prq= new PriorityQueueExample();
+		// LinkedList_ArraysList_  linklist = new LinkedList_ArraysList_();
+		// Fibonacci fib= new Fibonacci();  
 
 
 
@@ -131,7 +140,16 @@ public class Main {
 		// Ugly_Number un= new Ugly_Number();
 		// Factorial_Trailing_Zeroes  ftz= new Factorial_Trailing_Zeroes();
 		// Count_Primes  con= new Count_Primes();
-		lastStoneWeight  lstw= new lastStoneWeight();
+		// lastStoneWeight  lstw= new lastStoneWeight();
+		// LastVisitedIntegers lasViIn=new LastVisitedIntegers();
+	    // LengthofLastWord linklist=new LengthofLastWord();
+		// Fibonacci_Number fibnacciNumber=new Fibonacci_Number();
+		
+		   Climbing_Stairs  climbStairs =new Climbing_Stairs();
+		
+        // Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
+		
+		   
 	}
 
 }
