@@ -2,13 +2,13 @@ package Dynamic_Programming;
 
 public class Fibonacci {
 	
-	int n=5;
+	int n=25;
 	int[] dp = new int[n+1];
 	public Fibonacci()
 	{
 
 		System.out.println(fib(n));
-		fib2(3);
+		fib2(25);
 	}
 	//////////////(Top-Down DP)
 	int fib(int n) {

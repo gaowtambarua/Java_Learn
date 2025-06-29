@@ -16,7 +16,7 @@ public class Sieve_of_Eratosthenes {
 
         for (int i = 2; i * i <= n; i++) {
             if (isPrime[i]) {
-                for (int j = i * i; j <= n; j += i) {
+                for (int j = i * i; j <= n; j += i) {//j=2*2   ; j=j+i  //4+2,6+2,8+2
                     isPrime[j] = false;
                 }
             }

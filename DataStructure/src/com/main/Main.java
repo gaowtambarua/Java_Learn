@@ -6,6 +6,7 @@ import dataStructure.PriorityQueueExample;
 import dataStructure.QueueExample;
 import dataStructure.SinglyLinkList;
 import dataStructure.StackExample;
+import dataStructure.Two_Three_Dimantion_List_;
 import dataStructure.aray;
 import dataStructure.hashSet;
 import dataStructure.singly_linked_list;
@@ -19,6 +20,7 @@ import Algoritham.Sort.Quick_Sort;
 import Algoritham.Sort.Selection_Sort;
 import Algoritham.Fibonacci;
 import Algoritham.Sieve_of_Eratosthenes;
+import Algoritham.Subset;
 import Algoritham.Tortoise_and_Hare_OR_Fast_and_Slow_Pointer;
 import Algoritham.Trailing_Zeros_in_Factorial;
 import Algoritham.Two_Pointer_;
@@ -29,6 +31,8 @@ import LeadCode_Solution.Count_Primes;
 import LeadCode_Solution.Factorial_Trailing_Zeroes;
 import LeadCode_Solution.Fibonacci_Number;
 import LeadCode_Solution.Happy_Number;
+import LeadCode_Solution.House_Robber;
+import LeadCode_Solution.House_Robber_II;
 import LeadCode_Solution.LastVisitedIntegers;
 import LeadCode_Solution.Last_Stone_Weight_II;
 import LeadCode_Solution.LengthofLastWord;
@@ -36,7 +40,9 @@ import LeadCode_Solution.Linked_List_Cycle;
 import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Merge_Two_Sorted_Lists;
 import LeadCode_Solution.Middle_of_the_Linked_List;
+import LeadCode_Solution.Min_Cost_Climbing_Stairs;
 import LeadCode_Solution.Move_Zeroes;
+import LeadCode_Solution.N_th_Tribonacci_Number;
 import LeadCode_Solution.Palindrome_Number;
 import LeadCode_Solution.Remove_Duplicates_from_Sorted_Array;
 import LeadCode_Solution.Remove_Element;
@@ -44,6 +50,7 @@ import LeadCode_Solution.Reverse_Linked_List_;
 import LeadCode_Solution.Running_Sum_of_1d_Array;
 import LeadCode_Solution.Sort_an_Array;
 import LeadCode_Solution.Squares_of_a_Sorted_Array;
+import LeadCode_Solution.Subsets;
 import LeadCode_Solution.Ugly_Number;
 import LeadCode_Solution.lastStoneWeight;
 import LeadCode_Solution.two_Sum;
@@ -74,6 +81,7 @@ public class Main {
 		// PriorityQueueExample prq= new PriorityQueueExample();
 		// LinkedList_ArraysList_  linklist = new LinkedList_ArraysList_();
 		// Fibonacci fib= new Fibonacci();  
+		// Two_Three_Dimantion_List_ twothdlist=new Two_Three_Dimantion_List_();
 
 
 
@@ -95,6 +103,7 @@ public class Main {
 		// Sieve_of_Eratosthenes seive=new Sieve_of_Eratosthenes(); // Find Out Prime Number
 		// Trailing_Zeros_in_Factorial tzin= new Trailing_Zeros_in_Factorial();
 		// Marge_Sort_Self mss= new Marge_Sort_Self();
+	    // Subset  sub=new Subset();
 
 
 
@@ -144,8 +153,12 @@ public class Main {
 		// LastVisitedIntegers lasViIn=new LastVisitedIntegers();
 	    // LengthofLastWord linklist=new LengthofLastWord();
 		// Fibonacci_Number fibnacciNumber=new Fibonacci_Number();
-		
-		   Climbing_Stairs  climbStairs =new Climbing_Stairs();
+		// Climbing_Stairs  climbStairs =new Climbing_Stairs();
+		// Min_Cost_Climbing_Stairs mccs= new Min_Cost_Climbing_Stairs();
+	    // N_th_Tribonacci_Number ntht=new N_th_Tribonacci_Number();
+		// House_Robber  hr=new House_Robber();
+		// House_Robber_II hr2=new House_Robber_II();
+		// Subsets sub= new  Subsets();
 		
         // Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 		
