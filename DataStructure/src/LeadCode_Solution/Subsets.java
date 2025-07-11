@@ -11,7 +11,7 @@ public class Subsets {
 	}
 	public List<List<Integer>> subsets(int[] nums) {
 		
-		List<List<Integer>> num=new ArrayList<List<Integer>>();
+		List<List<Integer>> num =new ArrayList<List<Integer>>();
 		num.add(new ArrayList<Integer>());
 		for(int present:nums)
 		{

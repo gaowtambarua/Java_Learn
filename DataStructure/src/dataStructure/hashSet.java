@@ -5,6 +5,16 @@ import java.util.HashSet;
 public class hashSet {
 	public hashSet()
 	{
+		HashSet<Integer> aa=new HashSet<Integer>();
+		aa.add(1);
+		aa.add(2);
+		aa.add(3);
+		aa.add(1);
+		aa.add(2);
+		aa.add(3);
+		System.out.println(aa);
+		
+		
 		int[] arr1 = {7,1,14,11};
 		System.out.println(checkIfExistJava(arr1)); 
 	}

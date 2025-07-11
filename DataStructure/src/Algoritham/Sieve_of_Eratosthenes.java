@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Sieve_of_Eratosthenes {
 	public Sieve_of_Eratosthenes()
 	{
-		int n = 50;
+		int n = 10;
         System.out.println("Prime numbers up to " + n + ":");
         printPrimes(n);
 	}
