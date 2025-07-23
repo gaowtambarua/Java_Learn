@@ -14,6 +14,8 @@ import dataStructure.hashSet;
 import dataStructure.singly_linked_list;
 import Algoritham.Algoritham;
 import Algoritham.Search.BinarySearch2;
+import Algoritham.Search.Find_Maximum;
+import Algoritham.Search.Find_Minus_Plus_Number_Using_Binary_Serarch;
 import Algoritham.Sort.Bubble_Sort;
 import Algoritham.Sort.Heap_Sort;
 import Algoritham.Sort.Insertion_Sort;
@@ -25,6 +27,7 @@ import Algoritham.Backtracking;
 import Algoritham.Brian_Kernighan;
 import Algoritham.Fibonacci;
 import Algoritham.Next_Permutation;
+import Algoritham.Reversal_Algorithm;
 import Algoritham.Sieve_of_Eratosthenes;
 import Algoritham.Subset;
 import Algoritham.Tortoise_and_Hare_OR_Fast_and_Slow_Pointer;
@@ -37,10 +40,15 @@ import LeadCode_Solution.Capitalize_the_Title;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
 import LeadCode_Solution.Check_if_Number_is_a_Sum_of_Powers_of_Three;
 import LeadCode_Solution.Climbing_Stairs;
+import LeadCode_Solution.Count_Negative_Numbers_in_a_Sorted_Matrix;
 import LeadCode_Solution.Count_Primes;
 import LeadCode_Solution.Factorial_Trailing_Zeroes;
 import LeadCode_Solution.Fibonacci_Number;
 import LeadCode_Solution.Find_Lucky_Integer_in_an_Array;
+import LeadCode_Solution.Find_Minimum_in_Rotated_Sorted_Array;
+import LeadCode_Solution.Find_Minimum_in_Rotated_Sorted_Array_II;
+import LeadCode_Solution.FirstBadVersion;
+import LeadCode_Solution.Guess_Number_Higher_or_Lower;
 import LeadCode_Solution.Happy_Number;
 import LeadCode_Solution.House_Robber;
 import LeadCode_Solution.House_Robber_II;
@@ -48,6 +56,7 @@ import LeadCode_Solution.LastVisitedIntegers;
 import LeadCode_Solution.Last_Stone_Weight_II;
 import LeadCode_Solution.LengthofLastWord;
 import LeadCode_Solution.Linked_List_Cycle;
+import LeadCode_Solution.Maximum_Count_of_Positive_Integer_and_Negative_Integer;
 import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Merge_Two_Sorted_Lists;
 import LeadCode_Solution.Middle_of_the_Linked_List;
@@ -67,7 +76,10 @@ import LeadCode_Solution.Power_of_three;
 import LeadCode_Solution.Remove_Duplicates_from_Sorted_Array;
 import LeadCode_Solution.Remove_Element;
 import LeadCode_Solution.Reverse_Linked_List_;
+import LeadCode_Solution.Rotate_Array;
 import LeadCode_Solution.Running_Sum_of_1d_Array;
+import LeadCode_Solution.Search_Insert_Position;
+import LeadCode_Solution.Search_in_Rotated_Sorted_Array;
 import LeadCode_Solution.SingleNumber;
 import LeadCode_Solution.Sort_an_Array;
 import LeadCode_Solution.Squares_of_a_Sorted_Array;
@@ -75,6 +87,7 @@ import LeadCode_Solution.Subsets;
 import LeadCode_Solution.Subsets_II;
 import LeadCode_Solution.ToLowerCase;
 import LeadCode_Solution.Ugly_Number;
+import LeadCode_Solution.Valid_Perfect_Square;
 import LeadCode_Solution.lastStoneWeight;
 import LeadCode_Solution.two_Sum;
 import Math.PrimeNumber_Two;
@@ -138,6 +151,9 @@ public class Main {
 		
 		
 		// BinarySearch2 bs= new BinarySearch2();
+		// Find_Minus_Plus_Number_Using_Binary_Serarch fiub=new Find_Minus_Plus_Number_Using_Binary_Serarch();
+		// Find_Maximum fm=new Find_Maximum();
+		
 		
 
 		// Two_Pointer_ tp=new Two_Pointer_();
@@ -150,7 +166,7 @@ public class Main {
 		// Next_Permutation  np =new Next_Permutation();
 		// Brian_Kernighan brk=new Brian_Kernighan();
 		// Power_of_Two ispwer= new Power_of_Two();
-
+		// Reversal_Algorithm ra=new Reversal_Algorithm();
 
 
 
@@ -219,8 +235,17 @@ public class Main {
 		// Power_of_Four pof=new Power_of_Four();
 		// Check_if_Number_is_a_Sum_of_Powers_of_Three ch=new Check_if_Number_is_a_Sum_of_Powers_of_Three();
 		// Number_of_Distinct_Averages nofd=new Number_of_Distinct_Averages();
-		BinarySearch bs2=new BinarySearch();
-
+		// BinarySearch bs2=new BinarySearch();
+		// Maximum_Count_of_Positive_Integer_and_Negative_Integer mcoP=new Maximum_Count_of_Positive_Integer_and_Negative_Integer();
+		// Count_Negative_Numbers_in_a_Sorted_Matrix cnnin=new Count_Negative_Numbers_in_a_Sorted_Matrix();
+		// FirstBadVersion fbV=new FirstBadVersion();
+		// Guess_Number_Higher_or_Lower gnh=new Guess_Number_Higher_or_Lower();
+		// Search_Insert_Position sip=new Search_Insert_Position();
+		// Find_Minimum_in_Rotated_Sorted_Array fmi=new Find_Minimum_in_Rotated_Sorted_Array();
+		// Find_Minimum_in_Rotated_Sorted_Array_II find=new Find_Minimum_in_Rotated_Sorted_Array_II();
+		// Valid_Perfect_Square va=new Valid_Perfect_Square();
+		// Search_in_Rotated_Sorted_Array sir=new Search_in_Rotated_Sorted_Array();
+		// Rotate_Array ra=new Rotate_Array();
 
 		// Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 

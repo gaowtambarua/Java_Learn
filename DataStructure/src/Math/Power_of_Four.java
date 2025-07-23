@@ -35,6 +35,11 @@ public class Power_of_Four {
 		double logVal = Math.log(n) / Math.log(4); ///////////////  a^x=b  
 		return Math.abs(logVal - Math.round(logVal)) < 1e-10;  //Math.round er kaz hocce doshomik shonkha bad deowa
 
+		/////////////
+		//////////     ▶️ n = 15.9999999
+        //////////////// logVal = ~1.99999998
+		//////  		Math.round(1.99999998) = 2
+        /////////		logVal - round = -0.00000002 < < 1e-10; true hocce howar kotha false..Math.abs use kora hoice
 
 	}
 }
