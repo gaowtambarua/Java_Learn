@@ -1,5 +1,6 @@
 package com.main;
 
+import dataStructure.Array_Copy;
 import dataStructure.Class_Array;
 import dataStructure.HasMap;
 import dataStructure.Has_Table;
@@ -29,17 +30,24 @@ import Algoritham.Fibonacci;
 import Algoritham.Next_Permutation;
 import Algoritham.Reversal_Algorithm;
 import Algoritham.Sieve_of_Eratosthenes;
+import Algoritham.Sliding_Window;
 import Algoritham.Subset;
 import Algoritham.Tortoise_and_Hare_OR_Fast_and_Slow_Pointer;
 import Algoritham.Trailing_Zeros_in_Factorial;
 import Algoritham.Two_Pointer_;
+import BitMinupulation.Binary_Representation;
+import BitMinupulation.Bit_Masking;
+import BitMinupulation.Bitwise_Counting_Algorithm;
 import BitMinupulation.Xor;
 import LeadCode_Solution.Add_Digits;
 import LeadCode_Solution.BinarySearch;
+import LeadCode_Solution.Bitwise_ORs_of_Subarrays;
 import LeadCode_Solution.Capitalize_the_Title;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
 import LeadCode_Solution.Check_if_Number_is_a_Sum_of_Powers_of_Three;
 import LeadCode_Solution.Climbing_Stairs;
+import LeadCode_Solution.Count_Good_Triplets;
+import LeadCode_Solution.Count_Hills_and_Valleys_in_an_Array;
 import LeadCode_Solution.Count_Negative_Numbers_in_a_Sorted_Matrix;
 import LeadCode_Solution.Count_Primes;
 import LeadCode_Solution.Factorial_Trailing_Zeroes;
@@ -47,15 +55,20 @@ import LeadCode_Solution.Fibonacci_Number;
 import LeadCode_Solution.Find_Lucky_Integer_in_an_Array;
 import LeadCode_Solution.Find_Minimum_in_Rotated_Sorted_Array;
 import LeadCode_Solution.Find_Minimum_in_Rotated_Sorted_Array_II;
+import LeadCode_Solution.Find_Resultant_Array_After_Removing_Anagrams;
 import LeadCode_Solution.FirstBadVersion;
+import LeadCode_Solution.Group_Anagrams;
 import LeadCode_Solution.Guess_Number_Higher_or_Lower;
 import LeadCode_Solution.Happy_Number;
 import LeadCode_Solution.House_Robber;
 import LeadCode_Solution.House_Robber_II;
+import LeadCode_Solution.Intersection_of_Two_Arrays;
+import LeadCode_Solution.Jewels_and_Stones;
 import LeadCode_Solution.LastVisitedIntegers;
 import LeadCode_Solution.Last_Stone_Weight_II;
 import LeadCode_Solution.LengthofLastWord;
 import LeadCode_Solution.Linked_List_Cycle;
+import LeadCode_Solution.Longest_Repeating_Character_Replacement;
 import LeadCode_Solution.Maximum_Count_of_Positive_Integer_and_Negative_Integer;
 import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Merge_Two_Sorted_Lists;
@@ -68,6 +81,7 @@ import LeadCode_Solution.NextPermutation;
 import LeadCode_Solution.Number_of_1_Bits;
 import LeadCode_Solution.Number_of_Distinct_Averages;
 import LeadCode_Solution.Palindrome_Number;
+import LeadCode_Solution.Permutation_in_String;
 import LeadCode_Solution.Permutations;
 import LeadCode_Solution.Permutations_II;
 import LeadCode_Solution.Power_of_Four;
@@ -87,12 +101,14 @@ import LeadCode_Solution.Subsets;
 import LeadCode_Solution.Subsets_II;
 import LeadCode_Solution.ToLowerCase;
 import LeadCode_Solution.Ugly_Number;
+import LeadCode_Solution.Valid_Anagram;
 import LeadCode_Solution.Valid_Perfect_Square;
 import LeadCode_Solution.lastStoneWeight;
 import LeadCode_Solution.two_Sum;
 import Math.PrimeNumber_Two;
 import Math.PrimeNumbers;
 import Math.Trailing_Zeroes;
+import Technique.Brute_Force;
 
 public class Main {
 	public static void main(String[] args) {
@@ -120,6 +136,7 @@ public class Main {
 		// Two_Three_Dimantion_List_ twothdlist=new Two_Three_Dimantion_List_();
 		// HasMap has=new HasMap();
 		// Has_Table hast=new Has_Table();
+		// Arrasy_Copy aconew =new Array_Copy();
 
 
 
@@ -131,6 +148,9 @@ public class Main {
 		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 
 		// Xor xor=new Xor();
+		// Binary_Representation br=new Binary_Representation();
+		// Bit_Masking bitm=new Bit_Masking();
+		// Bitwise_Counting_Algorithm bitw=new Bitwise_Counting_Algorithm();
 
 
 
@@ -148,13 +168,13 @@ public class Main {
 		// Merge_Sort ms=new Merge_Sort();
 		// Quick_Sort qs=new Quick_Sort();
 		// Heap_Sort hs=new Heap_Sort();
-		
-		
+
+
 		// BinarySearch2 bs= new BinarySearch2();
 		// Find_Minus_Plus_Number_Using_Binary_Serarch fiub=new Find_Minus_Plus_Number_Using_Binary_Serarch();
 		// Find_Maximum fm=new Find_Maximum();
-		
-		
+
+
 
 		// Two_Pointer_ tp=new Two_Pointer_();
 		// Tortoise_and_Hare_OR_Fast_and_Slow_Pointer fs = new Tortoise_and_Hare_OR_Fast_and_Slow_Pointer();
@@ -167,6 +187,7 @@ public class Main {
 		// Brian_Kernighan brk=new Brian_Kernighan();
 		// Power_of_Two ispwer= new Power_of_Two();
 		// Reversal_Algorithm ra=new Reversal_Algorithm();
+		//Sliding_Window sw=new Sliding_Window();
 
 
 
@@ -246,10 +267,30 @@ public class Main {
 		// Valid_Perfect_Square va=new Valid_Perfect_Square();
 		// Search_in_Rotated_Sorted_Array sir=new Search_in_Rotated_Sorted_Array();
 		// Rotate_Array ra=new Rotate_Array();
+		// Count_Hills_and_Valleys_in_an_Array cha=new Count_Hills_and_Valleys_in_an_Array();
+		// Count_Good_Triplets cgto=new Count_Good_Triplets();
+		// Bitwise_ORs_of_Subarrays bit=new Bitwise_ORs_of_Subarrays();
+		// Jewels_and_Stones jas=new Jewels_and_Stones();
+		// Intersection_of_Two_Arrays iotA=new Intersection_of_Two_Arrays();
+		// Valid_Anagram va=new Valid_Anagram();
+		// Group_Anagrams ga=new Group_Anagrams();
+		// Find_Resultant_Array_After_Removing_Anagrams fra=new Find_Resultant_Array_After_Removing_Anagrams();
+		// Permutation_in_String pis=new Permutation_in_String();
+		Longest_Repeating_Character_Replacement lrc=new Longest_Repeating_Character_Replacement();
 
 		// Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 
 
+
+
+
+
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////////////////////// Technique  ////////////////////////////////////////////////////////
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+		
+		Brute_Force bf=new Brute_Force();
 	}
 
 }

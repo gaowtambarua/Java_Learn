@@ -7,7 +7,7 @@ import java.util.List;
 public class Backtracking {
 	public Backtracking ()
 	{
-		 int[] nums = {1, 2,3}; /// [1,2,3], [1,3,2], [2, 1, 3], [2, 3, 1], [3,1,2], [3,2,1].
+		 int[] nums = {3,2,1,5}; /// [1,2,3], [1,3,2], [2, 1, 3], [2, 3, 1], [3,1,2], [3,2,1].
 	        List<List<Integer>> result = new ArrayList<>();
 	        List<Integer> temp = new ArrayList<>();
 	        boolean[] used = new boolean[nums.length];

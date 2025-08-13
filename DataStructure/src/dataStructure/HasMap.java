@@ -14,6 +14,7 @@ public class HasMap {
 		System.out.println(frq.get(3));
 		System.out.println(frq.get(6));
 		System.out.println(frq.get(10));
+		System.out.println();
 		
 		System.out.println(frq.entrySet());
 		System.out.println(frq);
