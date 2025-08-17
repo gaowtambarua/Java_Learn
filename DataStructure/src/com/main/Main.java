@@ -9,6 +9,7 @@ import dataStructure.PriorityQueueExample;
 import dataStructure.QueueExample;
 import dataStructure.SinglyLinkList;
 import dataStructure.StackExample;
+import dataStructure.StringBuilderClass;
 import dataStructure.Two_Three_Dimantion_List_;
 import dataStructure.aray;
 import dataStructure.hashSet;
@@ -51,12 +52,14 @@ import LeadCode_Solution.Count_Hills_and_Valleys_in_an_Array;
 import LeadCode_Solution.Count_Negative_Numbers_in_a_Sorted_Matrix;
 import LeadCode_Solution.Count_Primes;
 import LeadCode_Solution.Factorial_Trailing_Zeroes;
+import LeadCode_Solution.Faulty_Keyboard;
 import LeadCode_Solution.Fibonacci_Number;
 import LeadCode_Solution.Find_Lucky_Integer_in_an_Array;
 import LeadCode_Solution.Find_Minimum_in_Rotated_Sorted_Array;
 import LeadCode_Solution.Find_Minimum_in_Rotated_Sorted_Array_II;
 import LeadCode_Solution.Find_Resultant_Array_After_Removing_Anagrams;
 import LeadCode_Solution.FirstBadVersion;
+import LeadCode_Solution.Flip_Square_Submatrix_Vertically;
 import LeadCode_Solution.Group_Anagrams;
 import LeadCode_Solution.Guess_Number_Higher_or_Lower;
 import LeadCode_Solution.Happy_Number;
@@ -69,11 +72,14 @@ import LeadCode_Solution.Last_Stone_Weight_II;
 import LeadCode_Solution.LengthofLastWord;
 import LeadCode_Solution.Linked_List_Cycle;
 import LeadCode_Solution.Longest_Repeating_Character_Replacement;
+import LeadCode_Solution.Longest_Substring_Without_Repeating_Characters;
 import LeadCode_Solution.Maximum_Count_of_Positive_Integer_and_Negative_Integer;
+import LeadCode_Solution.Maximum_Erasure_Value;
 import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Merge_Two_Sorted_Lists;
 import LeadCode_Solution.Middle_of_the_Linked_List;
 import LeadCode_Solution.Min_Cost_Climbing_Stairs;
+import LeadCode_Solution.Minimum_Consecutive_Cards_to_Pick_;
 import LeadCode_Solution.MonotonicArray;
 import LeadCode_Solution.Move_Zeroes;
 import LeadCode_Solution.N_th_Tribonacci_Number;
@@ -90,6 +96,9 @@ import LeadCode_Solution.Power_of_three;
 import LeadCode_Solution.Remove_Duplicates_from_Sorted_Array;
 import LeadCode_Solution.Remove_Element;
 import LeadCode_Solution.Reverse_Linked_List_;
+import LeadCode_Solution.Reverse_String;
+import LeadCode_Solution.Reverse_String_II;
+import LeadCode_Solution.Reverse_Words_in_a_String_III;
 import LeadCode_Solution.Rotate_Array;
 import LeadCode_Solution.Running_Sum_of_1d_Array;
 import LeadCode_Solution.Search_Insert_Position;
@@ -137,6 +146,7 @@ public class Main {
 		// HasMap has=new HasMap();
 		// Has_Table hast=new Has_Table();
 		// Arrasy_Copy aconew =new Array_Copy();
+		// StringBuilderClass sb=new StringBuilderClass();
 
 
 
@@ -187,7 +197,7 @@ public class Main {
 		// Brian_Kernighan brk=new Brian_Kernighan();
 		// Power_of_Two ispwer= new Power_of_Two();
 		// Reversal_Algorithm ra=new Reversal_Algorithm();
-		//Sliding_Window sw=new Sliding_Window();
+		// Sliding_Window sw=new Sliding_Window();
 
 
 
@@ -276,7 +286,18 @@ public class Main {
 		// Group_Anagrams ga=new Group_Anagrams();
 		// Find_Resultant_Array_After_Removing_Anagrams fra=new Find_Resultant_Array_After_Removing_Anagrams();
 		// Permutation_in_String pis=new Permutation_in_String();
-		Longest_Repeating_Character_Replacement lrc=new Longest_Repeating_Character_Replacement();
+		// Longest_Repeating_Character_Replacement lrc=new Longest_Repeating_Character_Replacement();
+		// Longest_Substring_Without_Repeating_Characters lswrc=new Longest_Substring_Without_Repeating_Characters();
+		// Maximum_Erasure_Value mev=new Maximum_Erasure_Value();
+		// Minimum_Consecutive_Cards_to_Pick_ mc=new Minimum_Consecutive_Cards_to_Pick_();
+		// Flip_Square_Submatrix_Vertically fssubv=new Flip_Square_Submatrix_Vertically();
+
+		
+		
+		//Reverse_String rs=new Reverse_String();
+		//Reverse_Words_in_a_String_III rw=new Reverse_Words_in_a_String_III();
+		//Reverse_String_II rs=new Reverse_String_II();
+		//Faulty_Keyboard fk=new Faulty_Keyboard();
 
 		// Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 
@@ -290,7 +311,7 @@ public class Main {
 		//////////////////////////////////////////////////////// Technique  ////////////////////////////////////////////////////////
 		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 		
-		Brute_Force bf=new Brute_Force();
+		//Brute_Force bf=new Brute_Force();
 	}
 
 }
