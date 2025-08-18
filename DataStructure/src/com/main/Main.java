@@ -58,6 +58,7 @@ import LeadCode_Solution.Find_Lucky_Integer_in_an_Array;
 import LeadCode_Solution.Find_Minimum_in_Rotated_Sorted_Array;
 import LeadCode_Solution.Find_Minimum_in_Rotated_Sorted_Array_II;
 import LeadCode_Solution.Find_Resultant_Array_After_Removing_Anagrams;
+import LeadCode_Solution.Find_the_Original_Typed_String_I;
 import LeadCode_Solution.FirstBadVersion;
 import LeadCode_Solution.Flip_Square_Submatrix_Vertically;
 import LeadCode_Solution.Group_Anagrams;
@@ -114,6 +115,7 @@ import LeadCode_Solution.Valid_Anagram;
 import LeadCode_Solution.Valid_Perfect_Square;
 import LeadCode_Solution.lastStoneWeight;
 import LeadCode_Solution.two_Sum;
+import Math.Bit;
 import Math.PrimeNumber_Two;
 import Math.PrimeNumbers;
 import Math.Trailing_Zeroes;
@@ -209,6 +211,7 @@ public class Main {
 		// Trailing_Zeroes tz= new Trailing_Zeroes();
 		// PrimeNumbers pn= new PrimeNumbers (); 
 		// PrimeNumber_Two pntwo=new PrimeNumber_Two();
+		// Bit b=new Bit();
 
 
 
@@ -291,13 +294,14 @@ public class Main {
 		// Maximum_Erasure_Value mev=new Maximum_Erasure_Value();
 		// Minimum_Consecutive_Cards_to_Pick_ mc=new Minimum_Consecutive_Cards_to_Pick_();
 		// Flip_Square_Submatrix_Vertically fssubv=new Flip_Square_Submatrix_Vertically();
+		// Reverse_String rs=new Reverse_String();
 
 		
 		
-		//Reverse_String rs=new Reverse_String();
 		//Reverse_Words_in_a_String_III rw=new Reverse_Words_in_a_String_III();
 		//Reverse_String_II rs=new Reverse_String_II();
 		//Faulty_Keyboard fk=new Faulty_Keyboard();
+		//Find_the_Original_Typed_String_I ftot=new Find_the_Original_Typed_String_I();
 
 		// Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 
