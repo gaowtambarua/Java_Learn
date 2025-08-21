@@ -25,6 +25,9 @@ import Algoritham.Sort.Marge_Sort_Self;
 import Algoritham.Sort.Merge_Sort;
 import Algoritham.Sort.Quick_Sort;
 import Algoritham.Sort.Selection_Sort;
+import Algoritham.Tree.BFS_Breadth_First_Search_Iterative_with_Queue;
+import Algoritham.Tree.BinaryTreeDemo;
+import Algoritham.Tree.TreeNode;
 import Algoritham.Backtracking;
 import Algoritham.Brian_Kernighan;
 import Algoritham.Fibonacci;
@@ -75,6 +78,7 @@ import LeadCode_Solution.Linked_List_Cycle;
 import LeadCode_Solution.Longest_Repeating_Character_Replacement;
 import LeadCode_Solution.Longest_Substring_Without_Repeating_Characters;
 import LeadCode_Solution.Maximum_Count_of_Positive_Integer_and_Negative_Integer;
+import LeadCode_Solution.Maximum_Depth_of_Binary_Tree;
 import LeadCode_Solution.Maximum_Erasure_Value;
 import LeadCode_Solution.Merge_Sorted_Array;
 import LeadCode_Solution.Merge_Two_Sorted_Lists;
@@ -96,6 +100,7 @@ import LeadCode_Solution.Power_of_Two;
 import LeadCode_Solution.Power_of_three;
 import LeadCode_Solution.Remove_Duplicates_from_Sorted_Array;
 import LeadCode_Solution.Remove_Element;
+import LeadCode_Solution.Reverse_Integer;
 import LeadCode_Solution.Reverse_Linked_List_;
 import LeadCode_Solution.Reverse_String;
 import LeadCode_Solution.Reverse_String_II;
@@ -180,7 +185,11 @@ public class Main {
 		// Merge_Sort ms=new Merge_Sort();
 		// Quick_Sort qs=new Quick_Sort();
 		// Heap_Sort hs=new Heap_Sort();
-
+		
+		
+		// BinaryTreeDemo btd=new BinaryTreeDemo();
+		BFS_Breadth_First_Search_Iterative_with_Queue bfs=new BFS_Breadth_First_Search_Iterative_with_Queue();
+		
 
 		// BinarySearch2 bs= new BinarySearch2();
 		// Find_Minus_Plus_Number_Using_Binary_Serarch fiub=new Find_Minus_Plus_Number_Using_Binary_Serarch();
@@ -295,13 +304,17 @@ public class Main {
 		// Minimum_Consecutive_Cards_to_Pick_ mc=new Minimum_Consecutive_Cards_to_Pick_();
 		// Flip_Square_Submatrix_Vertically fssubv=new Flip_Square_Submatrix_Vertically();
 		// Reverse_String rs=new Reverse_String();
+		// Reverse_Words_in_a_String_III rw=new Reverse_Words_in_a_String_III();
+		// Reverse_String_II rs=new Reverse_String_II();
 
 		
 		
-		//Reverse_Words_in_a_String_III rw=new Reverse_Words_in_a_String_III();
-		//Reverse_String_II rs=new Reverse_String_II();
+		
+		
 		//Faulty_Keyboard fk=new Faulty_Keyboard();
 		//Find_the_Original_Typed_String_I ftot=new Find_the_Original_Typed_String_I();
+		//Reverse_Integer ri=new Reverse_Integer();
+		//Maximum_Depth_of_Binary_Tree md=new Maximum_Depth_of_Binary_Tree();
 
 		// Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 
