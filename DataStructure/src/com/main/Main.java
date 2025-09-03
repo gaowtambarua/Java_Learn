@@ -2,6 +2,7 @@ package com.main;
 
 import dataStructure.Array_Copy;
 import dataStructure.Class_Array;
+import dataStructure.Deque_Stack_And_Quee;
 import dataStructure.HasMap;
 import dataStructure.Has_Table;
 import dataStructure.LinkedList_ArraysList_;
@@ -27,6 +28,8 @@ import Algoritham.Sort.Quick_Sort;
 import Algoritham.Sort.Selection_Sort;
 import Algoritham.Tree.BFS_Breadth_First_Search_Iterative_with_Queue;
 import Algoritham.Tree.BinaryTreeDemo;
+import Algoritham.Tree.Iterative_Traversal;
+import Algoritham.Tree.Recursive_Traversals;
 import Algoritham.Tree.TreeNode;
 import Algoritham.Backtracking;
 import Algoritham.Brian_Kernighan;
@@ -44,12 +47,17 @@ import BitMinupulation.Bit_Masking;
 import BitMinupulation.Bitwise_Counting_Algorithm;
 import BitMinupulation.Xor;
 import LeadCode_Solution.Add_Digits;
+import LeadCode_Solution.Balanced_Binary_Tree;
 import LeadCode_Solution.BinarySearch;
+import LeadCode_Solution.Binary_Tree_Inorder_Traversal;
+import LeadCode_Solution.Binary_Tree_Postorder_Traversal;
+import LeadCode_Solution.Binary_Tree_Preorder_Traversal;
 import LeadCode_Solution.Bitwise_ORs_of_Subarrays;
 import LeadCode_Solution.Capitalize_the_Title;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
 import LeadCode_Solution.Check_if_Number_is_a_Sum_of_Powers_of_Three;
 import LeadCode_Solution.Climbing_Stairs;
+import LeadCode_Solution.Count_Complete_Tree_Nodes;
 import LeadCode_Solution.Count_Good_Triplets;
 import LeadCode_Solution.Count_Hills_and_Valleys_in_an_Array;
 import LeadCode_Solution.Count_Negative_Numbers_in_a_Sorted_Matrix;
@@ -70,6 +78,7 @@ import LeadCode_Solution.Happy_Number;
 import LeadCode_Solution.House_Robber;
 import LeadCode_Solution.House_Robber_II;
 import LeadCode_Solution.Intersection_of_Two_Arrays;
+import LeadCode_Solution.Invert_Binary_tree;
 import LeadCode_Solution.Jewels_and_Stones;
 import LeadCode_Solution.LastVisitedIntegers;
 import LeadCode_Solution.Last_Stone_Weight_II;
@@ -154,6 +163,7 @@ public class Main {
 		// Has_Table hast=new Has_Table();
 		// Arrasy_Copy aconew =new Array_Copy();
 		// StringBuilderClass sb=new StringBuilderClass();
+		// Deque_Stack_And_Quee dsq=new Deque_Stack_And_Quee();
 
 
 
@@ -188,7 +198,9 @@ public class Main {
 		
 		
 		// BinaryTreeDemo btd=new BinaryTreeDemo();
-		BFS_Breadth_First_Search_Iterative_with_Queue bfs=new BFS_Breadth_First_Search_Iterative_with_Queue();
+		// BFS_Breadth_First_Search_Iterative_with_Queue bfs=new BFS_Breadth_First_Search_Iterative_with_Queue();
+		 Recursive_Traversals prodr=new Recursive_Traversals();
+		 Iterative_Traversal it=new Iterative_Traversal();
 		
 
 		// BinarySearch2 bs= new BinarySearch2();
@@ -306,15 +318,29 @@ public class Main {
 		// Reverse_String rs=new Reverse_String();
 		// Reverse_Words_in_a_String_III rw=new Reverse_Words_in_a_String_III();
 		// Reverse_String_II rs=new Reverse_String_II();
+		// Faulty_Keyboard fk=new Faulty_Keyboard();
+		// Find_the_Original_Typed_String_I ftot=new Find_the_Original_Typed_String_I();
+		// Reverse_Integer ri=new Reverse_Integer();
+		// Maximum_Depth_of_Binary_Tree md=new Maximum_Depth_of_Binary_Tree();
+		// Count_Complete_Tree_Nodes cct=new Count_Complete_Tree_Nodes();
+		// Balanced_Binary_Tree bbt=new Balanced_Binary_Tree();
+		// Invert_Binary_tree ibt=new Invert_Binary_tree();
+		// Binary_Tree_Inorder_Traversal bti=new Binary_Tree_Inorder_Traversal();
+		// Binary_Tree_Postorder_Traversal btpt=new Binary_Tree_Postorder_Traversal();
 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		//Binary_Tree_Preorder_Traversal ptp=new Binary_Tree_Preorder_Traversal();
 		
-		
-		
-		
-		//Faulty_Keyboard fk=new Faulty_Keyboard();
-		//Find_the_Original_Typed_String_I ftot=new Find_the_Original_Typed_String_I();
-		//Reverse_Integer ri=new Reverse_Integer();
-		//Maximum_Depth_of_Binary_Tree md=new Maximum_Depth_of_Binary_Tree();
 
 		// Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 
