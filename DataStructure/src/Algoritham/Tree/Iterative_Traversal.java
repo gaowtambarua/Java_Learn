@@ -4,6 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 import Algoritham.Tree.Recursive_Traversals.TreeNode;
 
@@ -63,6 +64,29 @@ public class Iterative_Traversal {
 		List<Integer> listOneStackPostOrder=new LinkedList<>();
 		funOneStackPostOrder(root,listOneStackPostOrder);
 		System.out.println("For DFS postorder One Stack ="+listOneStackPostOrder);
+
+		// Lever Order (BFS)First In Firs Out
+		List<Integer> bfsLevelOrder=new LinkedList<Integer>();
+		funLevelOrder(root,bfsLevelOrder);
+		System.out.println("For BFS Levelorder ="+bfsLevelOrder);
+	}
+	public void funLevelOrder(TreeNode root,List<Integer> bfsLevelOrder)
+	{
+		Queue<TreeNode> qu=new LinkedList<>();
+		qu.add(root);
+		while(!qu.isEmpty())
+		{
+			TreeNode present=qu.poll();
+			bfsLevelOrder.add(present.val);
+			if(present.left!=null)
+			{
+				qu.add(present.left);
+			}
+			if(present.right!=null)
+			{
+				qu.add(present.right);
+			}
+		}
 	}
 	public void funOneStackPostOrder(TreeNode root,List<Integer> listOneStackPostOrder)
 	{

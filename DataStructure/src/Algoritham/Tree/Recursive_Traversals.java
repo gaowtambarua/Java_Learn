@@ -47,6 +47,7 @@ public class Recursive_Traversals {
 		List<Integer> dfsPostorder=new LinkedList<Integer>();
 		dfspostorder(root,dfsPostorder);
 		System.out.println("For DFS postorder ="+dfsPostorder);
+		
 	}
 	public void dfspreorder(TreeNode root, List<Integer> res) {
 		if(root==null)

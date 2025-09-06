@@ -29,6 +29,9 @@ import Algoritham.Sort.Selection_Sort;
 import Algoritham.Tree.BFS_Breadth_First_Search_Iterative_with_Queue;
 import Algoritham.Tree.BinaryTreeDemo;
 import Algoritham.Tree.Iterative_Traversal;
+import Algoritham.Tree.Iterative_Traversal_NArray_Tree;
+import Algoritham.Tree.N_Array_Tree;
+import Algoritham.Tree.Recursive_Traversal_N_Array_Tree;
 import Algoritham.Tree.Recursive_Traversals;
 import Algoritham.Tree.TreeNode;
 import Algoritham.Backtracking;
@@ -50,8 +53,11 @@ import LeadCode_Solution.Add_Digits;
 import LeadCode_Solution.Balanced_Binary_Tree;
 import LeadCode_Solution.BinarySearch;
 import LeadCode_Solution.Binary_Tree_Inorder_Traversal;
+import LeadCode_Solution.Binary_Tree_Level_Order_Traversal;
+import LeadCode_Solution.Binary_Tree_Level_Order_Traversal_II;
 import LeadCode_Solution.Binary_Tree_Postorder_Traversal;
 import LeadCode_Solution.Binary_Tree_Preorder_Traversal;
+import LeadCode_Solution.Binary_Tree_Zigzag_Level_Order_Traversal;
 import LeadCode_Solution.Bitwise_ORs_of_Subarrays;
 import LeadCode_Solution.Capitalize_the_Title;
 import LeadCode_Solution.Check_If_N_and_Its_Double_Exist;
@@ -94,8 +100,11 @@ import LeadCode_Solution.Merge_Two_Sorted_Lists;
 import LeadCode_Solution.Middle_of_the_Linked_List;
 import LeadCode_Solution.Min_Cost_Climbing_Stairs;
 import LeadCode_Solution.Minimum_Consecutive_Cards_to_Pick_;
+import LeadCode_Solution.Minimum_Depth_of_Binary_Tree;
 import LeadCode_Solution.MonotonicArray;
 import LeadCode_Solution.Move_Zeroes;
+import LeadCode_Solution.N_ary_Tree_Postorder_Traversal;
+import LeadCode_Solution.N_ary_Tree_Preorder_Traversal;
 import LeadCode_Solution.N_th_Tribonacci_Number;
 import LeadCode_Solution.NextPermutation;
 import LeadCode_Solution.Number_of_1_Bits;
@@ -199,8 +208,11 @@ public class Main {
 		
 		// BinaryTreeDemo btd=new BinaryTreeDemo();
 		// BFS_Breadth_First_Search_Iterative_with_Queue bfs=new BFS_Breadth_First_Search_Iterative_with_Queue();
-		 Recursive_Traversals prodr=new Recursive_Traversals();
-		 Iterative_Traversal it=new Iterative_Traversal();
+		// Recursive_Traversals prodr=new Recursive_Traversals();
+		// Iterative_Traversal it=new Iterative_Traversal();
+		// N_Array_Tree na=new N_Array_Tree();
+		// Iterative_Traversal_NArray_Tree itnt=new Iterative_Traversal_NArray_Tree();
+		// Recursive_Traversal_N_Array_Tree rr=new Recursive_Traversal_N_Array_Tree();
 		
 
 		// BinarySearch2 bs= new BinarySearch2();
@@ -327,20 +339,15 @@ public class Main {
 		// Invert_Binary_tree ibt=new Invert_Binary_tree();
 		// Binary_Tree_Inorder_Traversal bti=new Binary_Tree_Inorder_Traversal();
 		// Binary_Tree_Postorder_Traversal btpt=new Binary_Tree_Postorder_Traversal();
-
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		//Binary_Tree_Preorder_Traversal ptp=new Binary_Tree_Preorder_Traversal();
+		// Binary_Tree_Preorder_Traversal ptp=new Binary_Tree_Preorder_Traversal();
+		// Binary_Tree_Level_Order_Traversal btl=new Binary_Tree_Level_Order_Traversal();
+		// N_ary_Tree_Preorder_Traversal natpt=new N_ary_Tree_Preorder_Traversal();
 		
+		
+		//Minimum_Depth_of_Binary_Tree md=new Minimum_Depth_of_Binary_Tree();
+		//Binary_Tree_Level_Order_Traversal_II bt2=new Binary_Tree_Level_Order_Traversal_II();
+		//Binary_Tree_Zigzag_Level_Order_Traversal bt3=new Binary_Tree_Zigzag_Level_Order_Traversal();
+		// N_ary_Tree_Postorder_Traversal natpt=new N_ary_Tree_Postorder_Traversal();
 
 		// Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 

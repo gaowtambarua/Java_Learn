@@ -1,0 +1,21 @@
+{ Collections.reverse(result);
+  return result;
+}
+
+{
+LinkedList<List<Integer>> result=new LinkedList<>();
+result.addFirst(val);//Last in first out (dfs)
+}
+
+{
+//////////////////alternate work 
+		int a=0;
+		// a=1;
+		a=1-a;
+		System.out.println(a); // 0 thakele 1 and 1 thakle 0
+		
+		boolean b=true;
+		//b=false;
+		b=!b;
+		System.out.println(b);
+}
