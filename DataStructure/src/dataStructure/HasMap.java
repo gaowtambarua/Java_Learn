@@ -24,5 +24,23 @@ public class HasMap {
 		System.out.println(frq.get(12));
 		System.out.println(frq.getOrDefault(12, 0));
 		System.out.println(frq.get(12));
+		
+		
+		HashMap<Integer,Integer>fre=new HashMap<Integer,Integer>();
+		int nums[]={1,2,2,3,3,3,3,4},k=2;
+		for(int val : nums)
+		{
+			fre.put(val,fre.getOrDefault(val,0)+1);
+		}
+		int sum=0;
+		for(int val:fre.keySet())
+		{
+			if(fre.get(val)%k==0)
+			{
+				sum=sum+(fre.get(val))*val;
+			}
+		}
+		System.out.println(sum);
+
 	}
 }

@@ -19,3 +19,7 @@ result.addFirst(val);//Last in first out (dfs)
 		b=!b;
 		System.out.println(b);
 }
+
+{
+map.put(s.charAt(right),map.getOrDefault(s.charAt(right),0)+1);
+}

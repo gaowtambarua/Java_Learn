@@ -34,6 +34,10 @@ public class StringBuilderClass {
 			word[i]=new StringBuilder(word[i]).reverse().toString();
 		}
 		s=String.join("",word);
+		
+		StringBuilder sb = new StringBuilder("World");
+		sb.insert(0, "Hello ");   // index 0 মানে একদম শুরু
+		System.out.println(sb.toString());
 	}
 
 }
