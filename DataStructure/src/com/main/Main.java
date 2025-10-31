@@ -52,6 +52,10 @@ import BitMinupulation.Binary_Representation;
 import BitMinupulation.Bit_Masking;
 import BitMinupulation.Bitwise_Counting_Algorithm;
 import BitMinupulation.Xor;
+import Contest.Determine_the_Minimum_Sum_of_a_k_avoiding_Array;
+import Contest.Lexicographically_Smallest_String_After_Reverse;
+import Contest.Maximize_Sum_of_Squares_of_Digits;
+import Contest.Minimum_Operations_to_Transform_Array;
 import LeadCode_Solution.*;
 import Math.Bit;
 import Math.PrimeNumber_Two;
@@ -287,11 +291,17 @@ public class Main {
 		// Smallest_Missing_Multiple_of_K smmok=new Smallest_Missing_Multiple_of_K();
 		// Serialize_and_Deserialize_BST sad=new Serialize_and_Deserialize_BST();
 		// Binary_Tree_Maximum_Path_Sum btmps=new Binary_Tree_Maximum_Path_Sum();
-		Diameter_of_Binary_Tree doBia= new Diameter_of_Binary_Tree();
+		// Diameter_of_Binary_Tree doBia= new Diameter_of_Binary_Tree();
+		// Sum_of_Square_Numbers sof =new Sum_of_Square_Numbers();
 		
+		//contest
+		 //Lexicographically_Smallest_String_After_Reverse sdfs =new Lexicographically_Smallest_String_After_Reverse();
+		// Maximize_Sum_of_Squares_of_Digits msoso=new Maximize_Sum_of_Squares_of_Digits();
+		// Determine_the_Minimum_Sum_of_a_k_avoiding_Array dth=new Determine_the_Minimum_Sum_of_a_k_avoiding_Array();
+		Minimum_Operations_to_Transform_Array mot=new Minimum_Operations_to_Transform_Array();
 		
 		//Lexicographically_Smallest_String_After_Appliying_Operations lssaao=new Lexicographically_Smallest_String_After_Appliying_Operations();  ///Grap travasel kora hoi ni
-		// Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
+		//Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
 
 
 
