@@ -2,6 +2,7 @@ package com.main;
 
 import dataStructure.Array_Copy;
 import dataStructure.Class_Array;
+import dataStructure.Data_Save_Problem;
 import dataStructure.Deque_Stack_And_Quee;
 import dataStructure.HasMap;
 import dataStructure.Has_Table;
@@ -92,6 +93,7 @@ public class Main {
 		// Arrasy_Copy aconew =new Array_Copy();
 		// StringBuilderClass sb=new StringBuilderClass();
 		// Deque_Stack_And_Quee dsq=new Deque_Stack_And_Quee();
+		// Data_Save_Problem dsp=new Data_Save_Problem();
 
 
 
@@ -134,7 +136,7 @@ public class Main {
 		// Recursive_Traversal_N_Array_Tree rr=new Recursive_Traversal_N_Array_Tree();
 		// N_ary_Tree_Level_Order_Traversal_Algoritham na=new N_ary_Tree_Level_Order_Traversal_Algoritham();
 		// BST bst=new BST();
-		//IsValidBST isva=new IsValidBST();
+		// IsValidBST isva=new IsValidBST();
 		
 
 		// BinarySearch2 bs= new BinarySearch2();
@@ -290,15 +292,19 @@ public class Main {
 		// Sum_of_Elements_With_Frequency_Divisible_by_K sof=new Sum_of_Elements_With_Frequency_Divisible_by_K();
 		// Smallest_Missing_Multiple_of_K smmok=new Smallest_Missing_Multiple_of_K();
 		// Serialize_and_Deserialize_BST sad=new Serialize_and_Deserialize_BST();
+		// Path_Sum ps=new Path_Sum();
 		// Binary_Tree_Maximum_Path_Sum btmps=new Binary_Tree_Maximum_Path_Sum();
 		// Diameter_of_Binary_Tree doBia= new Diameter_of_Binary_Tree();
 		// Sum_of_Square_Numbers sof =new Sum_of_Square_Numbers();
+		// Delete_Nodes_From_Linked_List_Present_in_Array dnf=new Delete_Nodes_From_Linked_List_Present_in_Array();
+		// Remove_Nodes_From_Linked_List rnfl=new Remove_Nodes_From_Linked_List();
+		 Path_Sum_II ps=new Path_Sum_II();
 		
 		//contest
 		 //Lexicographically_Smallest_String_After_Reverse sdfs =new Lexicographically_Smallest_String_After_Reverse();
 		// Maximize_Sum_of_Squares_of_Digits msoso=new Maximize_Sum_of_Squares_of_Digits();
 		// Determine_the_Minimum_Sum_of_a_k_avoiding_Array dth=new Determine_the_Minimum_Sum_of_a_k_avoiding_Array();
-		Minimum_Operations_to_Transform_Array mot=new Minimum_Operations_to_Transform_Array();
+		// Minimum_Operations_to_Transform_Array mot=new Minimum_Operations_to_Transform_Array();
 		
 		//Lexicographically_Smallest_String_After_Appliying_Operations lssaao=new Lexicographically_Smallest_String_After_Appliying_Operations();  ///Grap travasel kora hoi ni
 		//Last_Stone_Weight_II  lstw= new Last_Stone_Weight_II();                       ///////////////////kora hoi ni
