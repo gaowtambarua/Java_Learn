@@ -1,4 +1,4 @@
-package Algoritham.Tree;
+package Algoritham.Tree.Week_3;
 
 public class Path_Sum {
 	

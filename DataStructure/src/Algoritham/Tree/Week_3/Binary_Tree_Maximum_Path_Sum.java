@@ -1,4 +1,4 @@
-package LeadCode_Solution;
+package Algoritham.Tree.Week_3;
 
 public class Binary_Tree_Maximum_Path_Sum {
 	public class TreeNode
