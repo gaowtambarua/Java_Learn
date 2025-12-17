@@ -41,6 +41,17 @@ import Algoritham.Tree.TreeNode;
 import Algoritham.Tree.Week_3.Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal;
 import Algoritham.Tree.Week_3.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal;
 import Algoritham.Tree.Week_3.Serialize_and_Deserialize_Binary_Tree;
+import Algoritham.Tree.Week_4.Design_Add_and_Search_Words_Data_Structure;
+import Algoritham.Tree.Week_4.Heap_PQ_usage;
+import Algoritham.Tree.Week_4.Implement_Trie_Prefix_Tree;
+import Algoritham.Tree.Week_4.Replace_Words;
+import Algoritham.Tree.Week_4.Trie_Autocomplete;
+import Algoritham.Tree.Week_5.Fenwick_Tree_BIT;
+import Algoritham.Tree.Week_5.Segment_Tree;
+import Algoritham.Tree.Week_6.AVL_Rotations;
+import Algoritham.Tree.Week_7.BFS_Java_Code;
+import Algoritham.Tree.Week_7.DFS_Java_Code;
+import Algoritham.Tree.Week_7.Graph_Representation_Undirected_Graph;
 import Algoritham.Backtracking;
 import Algoritham.Brian_Kernighan;
 import Algoritham.Fibonacci;
@@ -143,12 +154,26 @@ public class Main {
 		// Serialize_and_Deserialize_Binary_Tree saddb=new Serialize_and_Deserialize_Binary_Tree();
 		// Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal cbtf=new Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal();
 		// Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal cbtfriapt=new Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal();
+		// Implement_Trie_Prefix_Tree imptp=new Implement_Trie_Prefix_Tree();
+		// Design_Add_and_Search_Words_Data_Structure daas=new Design_Add_and_Search_Words_Data_Structure();
+		// Trie_Autocomplete ta=new Trie_Autocomplete();
+		// Replace_Words rw=new Replace_Words();
+		// Heap_PQ_usage hpu=new Heap_PQ_usage();
+		// Segment_Tree st=new Segment_Tree();
+		// Fenwick_Tree_BIT ftb=new Fenwick_Tree_BIT();
+		// AVL_Rotations avlr=new AVL_Rotations(); 
 		
-
 		// BinarySearch2 bs= new BinarySearch2();
 		// Find_Minus_Plus_Number_Using_Binary_Serarch fiub=new Find_Minus_Plus_Number_Using_Binary_Serarch();
 		// Find_Maximum fm=new Find_Maximum();
-
+		
+		
+		
+		//////////////////////////////////////////////Graph///////
+		
+		// Graph_Representation_Undirected_Graph grug=new Graph_Representation_Undirected_Graph();
+		// DFS_Java_Code dfjcode=new DFS_Java_Code();
+		BFS_Java_Code bfsJ=new BFS_Java_Code();
 
 
 		// Two_Pointer_ tp=new Two_Pointer_();
@@ -163,9 +188,7 @@ public class Main {
 		// Power_of_Two ispwer= new Power_of_Two();
 		// Reversal_Algorithm ra=new Reversal_Algorithm();
 		// Sliding_Window sw=new Sliding_Window();
-
-
-
+		
 
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//////////////////////////////////////////////////////// Math  ////////////////////////////////////////////////////////
@@ -306,6 +329,15 @@ public class Main {
 		// Remove_Nodes_From_Linked_List rnfl=new Remove_Nodes_From_Linked_List();
 		// Path_Sum_II ps=new Path_Sum_II();
 		// Longest_Univalue_Path lup=new Longest_Univalue_Path();
+		// Kth_Largest_Element_in_an_Array klei=new Kth_Largest_Element_in_an_Array();
+		// To_K_Frequent_Elements tkfe=new To_K_Frequent_Elements();
+		// Range_Sum_Query_Mutable rsqm=new Range_Sum_Query_Mutable();
+		// Range_Sum_Query_Immutable rasqi=new Range_Sum_Query_Immutable();
+		// Count_of_Smaller_Numbers_After_Self cosn=new Count_of_Smaller_Numbers_After_Self();
+		// Balance_a_Binary_Search_Tree babs=new Balance_a_Binary_Search_Tree();
+		// Balance_a_Binary_Search_Tree_By_AVL_Tree badavl=new Balance_a_Binary_Search_Tree_By_AVL_Tree();
+		// Find_if_Path_Exists_in_Graph fipe=new Find_if_Path_Exists_in_Graph();
+		
 		
 		//contest
 		 //Lexicographically_Smallest_String_After_Reverse sdfs =new Lexicographically_Smallest_String_After_Reverse();
