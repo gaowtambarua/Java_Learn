@@ -50,8 +50,23 @@ import Algoritham.Tree.Week_5.Fenwick_Tree_BIT;
 import Algoritham.Tree.Week_5.Segment_Tree;
 import Algoritham.Tree.Week_6.AVL_Rotations;
 import Algoritham.Tree.Week_7.BFS_Java_Code;
+import Algoritham.Tree.Week_7.Course_Schedule_Topological_Sort;
+import Algoritham.Tree.Week_7.DFS_Based_Topological_Sort;
+import Algoritham.Tree.Week_7.DFS_Cycle_Detection;
 import Algoritham.Tree.Week_7.DFS_Java_Code;
+import Algoritham.Tree.Week_7.Directed_Cycle_Detection;
 import Algoritham.Tree.Week_7.Graph_Representation_Undirected_Graph;
+import Algoritham.Tree.Week_7.My_Practice;
+import Algoritham.Tree.Week_7.My_Practice_Directed_Cycle;
+import Algoritham.Tree.Week_7.Optimized_DSU_Java_Code;
+import Algoritham.Tree.Week_7.Topological_Sort_BFS;
+import Algoritham.Tree.Week_7.Union_Find_DSU;
+import Algoritham.Tree.Week_8.Bellman_Ford_Negative_Cycle_Detect;
+import Algoritham.Tree.Week_8.Dijkstra;
+import Algoritham.Tree.Week_8.Kruskal_Algorithm;
+import Algoritham.Tree.Week_8.Prime_MST_PriorityQueue;
+import Algoritham.Tree.Week_8.Strongly_Connected_Components_SCC;
+import Algoritham.Tree.Week_8.Tarjan_Algorithm_SCC;
 import Algoritham.Backtracking;
 import Algoritham.Brian_Kernighan;
 import Algoritham.Fibonacci;
@@ -173,9 +188,23 @@ public class Main {
 		
 		// Graph_Representation_Undirected_Graph grug=new Graph_Representation_Undirected_Graph();
 		// DFS_Java_Code dfjcode=new DFS_Java_Code();
-		BFS_Java_Code bfsJ=new BFS_Java_Code();
-
-
+		// BFS_Java_Code bfsJ=new BFS_Java_Code();
+		// DFS_Cycle_Detection dfscd=new DFS_Cycle_Detection();
+		// Directed_Cycle_Detection dcd=new Directed_Cycle_Detection();
+		// My_Practice mp=new My_Practice();
+		// My_Practice_Directed_Cycle mypd=new My_Practice_Directed_Cycle();
+		// DFS_Based_Topological_Sort dfsbase=new DFS_Based_Topological_Sort();
+		// Topological_Sort_BFS tpls=new Topological_Sort_BFS();
+		// Course_Schedule_Topological_Sort cst=new Course_Schedule_Topological_Sort();
+		// Union_Find_DSU ufds=new Union_Find_DSU();
+		// Optimized_DSU_Java_Code op=new Optimized_DSU_Java_Code();
+		// Dijkstra djk=new Dijkstra();
+		// Bellman_Ford_Negative_Cycle_Detect belm=new Bellman_Ford_Negative_Cycle_Detect();
+		// Kruskal_Algorithm kruskal=new Kruskal_Algorithm();
+		// Prime_MST_PriorityQueue prmp=new Prime_MST_PriorityQueue();
+		// Strongly_Connected_Components_SCC scc=new Strongly_Connected_Components_SCC();
+		// Tarjan_Algorithm_SCC tas=new Tarjan_Algorithm_SCC();
+		
 		// Two_Pointer_ tp=new Two_Pointer_();
 		// Tortoise_and_Hare_OR_Fast_and_Slow_Pointer fs = new Tortoise_and_Hare_OR_Fast_and_Slow_Pointer();
 		// Sieve_of_Eratosthenes seive=new Sieve_of_Eratosthenes(); // Find Out Prime Number
@@ -337,7 +366,14 @@ public class Main {
 		// Balance_a_Binary_Search_Tree babs=new Balance_a_Binary_Search_Tree();
 		// Balance_a_Binary_Search_Tree_By_AVL_Tree badavl=new Balance_a_Binary_Search_Tree_By_AVL_Tree();
 		// Find_if_Path_Exists_in_Graph fipe=new Find_if_Path_Exists_in_Graph();
+		// Redundant_Connection rc=new Redundant_Connection();
+		// Course_Schedule cs=new Course_Schedule();
+		// Course_Schedule_II  cs2=new Course_Schedule_II();
+		// Network_Delay_Time n=new Network_Delay_Time();
+		Critical_Connections_in_a_Network cci=new Critical_Connections_in_a_Network();
 		
+		
+		// Redundant_Connection_II rc=new Redundant_Connection_II(); solve hoi ni
 		
 		//contest
 		 //Lexicographically_Smallest_String_After_Reverse sdfs =new Lexicographically_Smallest_String_After_Reverse();
