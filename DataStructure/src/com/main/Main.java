@@ -370,8 +370,8 @@ public class Main {
 		// Course_Schedule cs=new Course_Schedule();
 		// Course_Schedule_II  cs2=new Course_Schedule_II();
 		// Network_Delay_Time n=new Network_Delay_Time();
-		Critical_Connections_in_a_Network cci=new Critical_Connections_in_a_Network();
-		
+		// Critical_Connections_in_a_Network cci=new Critical_Connections_in_a_Network();
+		Number_of_Provinces nop=new Number_of_Provinces();
 		
 		// Redundant_Connection_II rc=new Redundant_Connection_II(); solve hoi ni
 		
