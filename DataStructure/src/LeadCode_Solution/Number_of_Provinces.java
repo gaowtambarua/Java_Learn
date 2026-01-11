@@ -2,54 +2,52 @@ package LeadCode_Solution;
 import java.util.*;
 public class Number_of_Provinces {
 
-	class Graph{
-		int v,result=0,time=0;
+	private class Graph{
+		int v,time=0,result=0;
 		ArrayList<ArrayList<Integer>> adj;
-		
-		int[] low,disc;
+		int[] low,desc;
 		public Graph(int n)
 		{
 			this.v=n;
-			low=new int[n];
-			disc=new int[n];
 			adj=new ArrayList<>();
+			low= new int[v];
+			desc=new int[v];
+			Arrays.fill(desc, -1);
 			for(int i=0;i<v;i++)
 			{
-				adj.add(new ArrayList());
+				adj.add(new ArrayList<>());
 			}
-			Arrays.fill(disc,-1);
 		}
 		
 		void addEdge(int a,int b)
 		{
 			adj.get(a).add(b);
 		}
-		
-		void dfs(int u)
+		private void dfs(int u)
 		{
-			low[u]=disc[u]=time++;
+			low[u]=desc[u]=time++;
 			for(int v : adj.get(u))
 			{
-				if(disc[v]==-1)
+				if(desc[v]==-1)
 				{
 					dfs(v);
-					low[u] = Math.min(low[u], low[v]);
+					low[u]=Math.min(low[v],low[u]);
 				}
 				else
 				{
-					low[u] = Math.min(low[u], low[v]);
+					low[u]=Math.min(desc[v],low[u]);
 				}
 			}
-			if(disc[u]==low[u])
+			if(low[u]==desc[u])
 			{
 				result++;
 			}
 		}
-		void tarjanscc()
+		private void tarjanSCC()
 		{
 			for(int i=0;i<v;i++)
 			{
-				if(disc[i]==-1)
+				if(desc[i]==-1)
 				{
 					dfs(i);
 				}
@@ -74,8 +72,7 @@ public class Number_of_Provinces {
 			i++;
 		}
 		
-		g.tarjanscc();
-		
+		g.tarjanSCC();
 		return g.result;
 	}
 
@@ -88,6 +85,9 @@ public class Number_of_Provinces {
 		};
 		
 		System.out.println(findCircleNum(isConnected));
+		
+		int a='d'+'e'+'e'+'e';
+		System.out.println(a);
 	}
 
 }
