@@ -46,7 +46,7 @@ import Algoritham.Tree.Week_4.Heap_PQ_usage;
 import Algoritham.Tree.Week_4.Implement_Trie_Prefix_Tree;
 import Algoritham.Tree.Week_4.Replace_Words;
 import Algoritham.Tree.Week_4.Trie_Autocomplete;
-import Algoritham.Tree.Week_5.Fenwick_Tree_BIT;
+import Algoritham.Tree.Week_5.PrefixSum;
 import Algoritham.Tree.Week_5.Segment_Tree;
 import Algoritham.Tree.Week_6.AVL_Rotations;
 import Algoritham.Tree.Week_7.BFS_Java_Code;
@@ -175,7 +175,7 @@ public class Main {
 		// Replace_Words rw=new Replace_Words();
 		// Heap_PQ_usage hpu=new Heap_PQ_usage();
 		// Segment_Tree st=new Segment_Tree();
-		// Fenwick_Tree_BIT ftb=new Fenwick_Tree_BIT();
+		// PrefixSum ftb=new PrefixSum();
 		// AVL_Rotations avlr=new AVL_Rotations(); 
 		
 		// BinarySearch2 bs= new BinarySearch2();
@@ -373,6 +373,7 @@ public class Main {
 		// Critical_Connections_in_a_Network cci=new Critical_Connections_in_a_Network();
 		// Number_of_Provinces nop=new Number_of_Provinces();
 		// Minimum_ASCII_Delete_Sum_for_Two_Strings msd=new Minimum_ASCII_Delete_Sum_for_Two_Strings();
+		Path_with_Maximum_Probability pwm=new Path_with_Maximum_Probability();
 		
 		// Redundant_Connection_II rc=new Redundant_Connection_II(); solve hoi ni
 		

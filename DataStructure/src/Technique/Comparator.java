@@ -33,5 +33,9 @@ public class Comparator {
 		{
 			System.out.print(pq.poll()+" ");
 		}
+		
+//		PriorityQueue<Pair> pq=new PriorityQueue<>(
+//				(a,b)->Double.compare(b.prob, a.prob)
+//				);
 	}
 }

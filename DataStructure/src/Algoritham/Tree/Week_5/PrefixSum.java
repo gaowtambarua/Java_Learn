@@ -1,6 +1,6 @@
 package Algoritham.Tree.Week_5;
 
-public class Fenwick_Tree_BIT {
+public class PrefixSum {
 	class FenwickTree {
 		private int[] bit;
 		private int n;
@@ -62,7 +62,7 @@ public class Fenwick_Tree_BIT {
 		}
 	}
 
-	public Fenwick_Tree_BIT()
+	public PrefixSum()
 	{
 		int [] data={1,2,3,4, 5,6,7,8};
 		FenwickTree ft=new FenwickTree(data);
