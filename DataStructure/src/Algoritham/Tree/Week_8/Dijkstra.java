@@ -44,8 +44,6 @@ public class Dijkstra {
 		}
 
 
-
-
 		return dist;
 	}
 	public Dijkstra()

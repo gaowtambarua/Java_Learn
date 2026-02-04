@@ -7,7 +7,7 @@ public class Power_of_Four {
 	// 1e-10	0.0000000001
 	// 1e-20	0.00000000000000000001
 	// 1e-50	0.000...0001 (৪৯টা ০) ✅ 
-
+	// int INF = (int)1e9;  //infininity number mane max number
 	//1e-50 মানে:  1 × 10−50
 	// log b^n=log(n)/log(b)	
 
