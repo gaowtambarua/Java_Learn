@@ -1,10 +1,15 @@
-package Algoritham;
+package Bit;
 
 public class Brian_Kernighan {
 	public Brian_Kernighan()
 	{
 		System.out.println(Integer.bitCount(11));
 		System.out.println(hammingWeight(11));
+		
+		
+		int n = 29;   // 11101
+		int setBits = Integer.bitCount(n);
+		System.out.println(setBits); // 4
 	}
 	
 	public int hammingWeight(int n) {
@@ -14,7 +19,6 @@ public class Brian_Kernighan {
 				n=n&(n-1);
 				count++;
 			}
-			
 			return count; 
 	    }
 }
