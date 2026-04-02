@@ -1,5 +1,6 @@
 package Technique;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
@@ -37,5 +38,16 @@ public class Comparator {
 //		PriorityQueue<Pair> pq=new PriorityQueue<>(
 //				(a,b)->Double.compare(b.prob, a.prob)
 //				);
+		
+		int [][] a={
+				{3,0},	
+				{5,1},
+				{2,2},
+				{6,3},
+			};
+			Arrays.sort(a,((x,y)-> x[0]-y[0]));
+			
+//			Integer [] idx=new Integer [n];	
+//			Arrays.sort(idx, (a, b) -> positions[a] - positions[b]);
 	}
 }
