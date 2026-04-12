@@ -1,6 +1,8 @@
 package dataStructure;
 
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 public class HasMap {
@@ -41,6 +43,12 @@ public class HasMap {
 			}
 		}
 		System.out.println(sum);
+		
+		Map<Integer, List<Integer>> map = new HashMap<>();
+
+		for(int k2 = 0; k < 3; k++) {
+		    map.computeIfAbsent(1, key -> new LinkedList<>()).add(2);
+		}
 
 	}
 }

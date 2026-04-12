@@ -5,6 +5,7 @@ public class Segment_Tree {
 	class SegmentTree {
 		int [] tree;
 		int n;
+		// leadcode problem 307
 		public SegmentTree (int [] arr)
 		{
 			n=arr.length;
