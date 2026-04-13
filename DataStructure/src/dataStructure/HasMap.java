@@ -49,6 +49,11 @@ public class HasMap {
 		for(int k2 = 0; k < 3; k++) {
 		    map.computeIfAbsent(1, key -> new LinkedList<>()).add(2);
 		}
-
+		
+		Map<Integer, List<int[]>> map2 = new HashMap<>();
+		for (Map.Entry<Integer, List<int[]>> entry : map2.entrySet()) {
+		    int key = entry.getKey();
+		    List<int[]> value = entry.getValue();
+		}
 	}
 }
