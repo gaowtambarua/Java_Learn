@@ -68,7 +68,7 @@ public class Fermat_Little_nd_Difference_Array_ {
 
                 if(next<n)
                 {
-                    // dif[next]=(dif[next]/v)%mod // (a/b)%m a =(a*(b^-1)%mod) 
+                    // dif[next]=(dif[next]/v)%mod // (a/b)%m   that meaan a =(a*(b^-1)%mod) 
                     // now using Fermat’s Little Theorem= a * (b^(m-2))% m
                     dif[next]=dif[next]*pow(v,mod-2)%mod;
                 }
